@@ -15,6 +15,7 @@ Package.onUse(function (api) {
   api.addFiles(path.join(asset_path, 'css', 'ratchet.css'), 'client');
   api.addFiles(path.join(asset_path, 'css', 'ratchet-theme-ios.css'), 'client');
   api.addFiles(path.join(asset_path, 'js', 'ratchet.js'), 'client');
+  api.addFiles(path.join(asset_path, 'js', 'fingerblast.js'), 'client');
 
   // fonts
   api.addFiles(path.join(asset_path, 'fonts', 'ratchicons.eot'), 'client');
