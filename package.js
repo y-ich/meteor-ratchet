@@ -10,6 +10,7 @@ Package.onUse(function (api) {
 
   api.use('jquery');
 
+  api.addFiles('custom-event-polyfill.js', 'client');
   var path = Npm.require('path');
   var asset_path = path.join('ratchet-2.0.2');
   api.addFiles(path.join(asset_path, 'css', 'ratchet.css'), 'client');
